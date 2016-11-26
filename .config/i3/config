@@ -153,6 +153,17 @@ bindsym $mod+r mode "resize"
 # finds out, if available)
 bar {
         status_command i3status
+	mode hide
 }
 
+# bind toggle mouse
 bindsym $mod+F12 exec "~/scripts/xinput-toggle.sh -r touchpad && xdotool mousemove 2000 2000"
+
+# hide borders and stuff
+new_window pixel  
+hide_edge_borders both
+
+# do not focus on mouse over
+focus_follows_mouse no
+mouse_warping none
+

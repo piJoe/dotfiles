@@ -19,3 +19,5 @@ URxvt*color14: #4eb4fa
 URxvt*color15: #d0d0d0
 
 URxvt.scrollBar: false
+URxvt.internalBorder:  4
+
