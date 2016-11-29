@@ -43,3 +43,5 @@ set numberwidth=3
 let g:airline_powerline_fonts = 1
 set ttimeoutlen=50
 let g:airline#extensions#tabline#enabled = 1
+
+nnoremap <c-p> :FZF<cr>
