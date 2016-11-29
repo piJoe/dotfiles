@@ -5,3 +5,5 @@ URxvt.scrollBar: false
 URxvt.internalBorder:  4
 
 URxvt.intensityStyles: false
+
+URxvt.font: xft:DejaVuSansMono:size=10

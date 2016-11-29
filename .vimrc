@@ -1,7 +1,16 @@
-set history=1000
+set nocompatible
+filetype off
 
-filetype plugin on
-filetype indent on
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+
+Plugin 'VundleVim/Vundle.vim'
+Plugin 'vim-airline/vim-airline'
+
+call vundle#end()
+filetype plugin indent on
+
+set history=1000
 
 set autoread
 
@@ -12,6 +21,7 @@ syntax enable
 
 set t_Co=256
 
+set background=dark
 colorscheme monokai
 
 set smarttab
@@ -25,3 +35,7 @@ set laststatus=2
 
 set number
 set numberwidth=3
+
+let g:airline_powerline_fonts = 1
+set ttimeoutlen=50
+let g:airline#extensions#tabline#enabled = 1
