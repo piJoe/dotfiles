@@ -4,7 +4,6 @@ filetype off
 call plug#begin()
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
-Plug 'VundleVim/Vundle.vim'
 Plug 'vim-airline/vim-airline'
 call plug#end()
 
