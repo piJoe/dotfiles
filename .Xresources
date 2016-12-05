@@ -2,7 +2,7 @@
 URxvt*background: #101010
 URxvt*foreground: #d0d0d0
 URxvt.scrollBar: false
-URxvt.internalBorder:  4
+URxvt.internalBorder:  0
 
 URxvt.intensityStyles: false
 

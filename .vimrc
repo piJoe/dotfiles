@@ -5,6 +5,9 @@ call plug#begin()
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
 Plug 'vim-airline/vim-airline'
+Plug 'vim-scripts/AutoClose'
+Plug 'tpope/vim-surround'
+Plug 'NLKNguyen/papercolor-theme'
 call plug#end()
 
 filetype plugin indent on
