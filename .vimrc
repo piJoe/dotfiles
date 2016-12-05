@@ -1,15 +1,11 @@
 set nocompatible
 filetype off
 
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
-Plugin 'VundleVim/Vundle.vim'
-Plugin 'vim-airline/vim-airline'
-call vundle#end()
-
 call plug#begin()
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
+Plug 'VundleVim/Vundle.vim'
+Plug 'vim-airline/vim-airline'
 call plug#end()
 
 filetype plugin indent on
