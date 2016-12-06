@@ -11,3 +11,6 @@ PS1='[\u@\h \W]\$ '
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
 
 alias backlight='sudo ~/scripts/backlight.sh'
+
+export VISUAL=vim
+export EDITOR="$VISUAL"
